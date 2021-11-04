@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "name": "Actor",
+    "prereqFeat": null,
+    "prereqClass": null,
+    "description": "+1 in Cha., advantage on Deception and Performance checks, mimic the speech of a person or the sounds made by a creature.",
+    "modifications": [
+      {
+        "type": "ATTRIBUTE",
+        "attribute": "CHARISMA",
+        "skill": null,
+        "size": null,
+        "value": 1
+      },
+      {
+        "type": "ADVANTAGE",
+        "attribute": null,
+        "skill": "DECEPTION",
+        "size": null,
+        "value": 0
+      },
+      {
+        "type": "ADVANTAGE",
+        "attribute": null,
+        "skill": "PERFORMANCE",
+        "size": null,
+        "value": 0
+      }
+    ]
+  }
+]
