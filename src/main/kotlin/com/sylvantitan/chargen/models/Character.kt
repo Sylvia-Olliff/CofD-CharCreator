@@ -11,6 +11,10 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 open class Character(
+    val ID: Int,
+    var Name: String,
+    var Player: String,
+    var Chronicle: String,
     protected val charID: Int,
     protected val coreStats: CoreStats,
     protected val skillStats: SkillStats,
